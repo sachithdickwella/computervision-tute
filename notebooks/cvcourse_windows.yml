@@ -1,0 +1,29 @@
+name: cvisiondev
+channels:
+  - michael_wild
+  - defaults
+  - pytorch
+dependencies:
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - nbconvert
+  - nbformat
+  - notebook
+  - numpy
+  - olefile
+  - opencv
+  - pillow
+  - pip
+  - py-opencv
+  - python
+  - qtconsole
+  - scikit-learn
+  - sip
+  - six
+  - sqlite
+  - opencv-contrib
+  - pytorch=1.5
+  - torchvision
+  - cpuonly
+
