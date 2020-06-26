@@ -14,7 +14,6 @@ while capture.isOpened():
     ret, frame = capture.read()
 
     if ret:
-
         # The video is playing much faster than the human can watch it, hence computer can read it quickly for
         # further processing. Therefore, if we want to slow down the video into a slower rate that a person can
         # watch, just sleep the thread for a while. More idle sleeping time would be the time for single frame.
